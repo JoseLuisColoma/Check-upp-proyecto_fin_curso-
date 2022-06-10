@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="braden" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1000.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.doctorwho.NavigationController">
+   <children>
+      <Pane id="nav_fondo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="216.0">
+         <children>
+            <ToggleButton id="btn_nav" fx:id="btn_inicio" alignment="CENTER_RIGHT" layoutY="175.0" mnemonicParsing="false" onAction="#goHome" prefHeight="80.0" prefWidth="216.0" text="INICIO           ">
+               <toggleGroup>
+                  <ToggleGroup fx:id="navegacion" />
+               </toggleGroup>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </ToggleButton>
+            <ImageView fx:id="home_icon" disable="true" fitHeight="40.0" fitWidth="48.0" layoutX="13.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Imagenes/casa.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+            </ImageView>
+            <ToggleButton id="btn_nav" fx:id="btn_calcular" alignment="CENTER_RIGHT" layoutY="255.0" mnemonicParsing="false" onAction="#goCalculadora" prefHeight="80.0" prefWidth="216.0" text="   CALCULAR      " textAlignment="CENTER" toggleGroup="$navegacion" />
+            <ImageView disable="true" fitHeight="40.0" fitWidth="48.0" layoutX="13.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+               <image>
+                  <Image url="@../../../Imagenes/calculadora.png" />
+               </image>
+            </ImageView>
+            <ToggleButton id="btn_nav" fx:id="btn_riesgo" alignment="CENTER_RIGHT" layoutY="335.0" mnemonicParsing="false" onAction="#goPrevencion" prefHeight="80.0" prefWidth="216.0" text="PREVENCIÓN   " toggleGroup="$navegacion" />
+            <ImageView disable="true" fitHeight="40.0" fitWidth="40.0" layoutX="13.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <ColorAdjust brightness="1.0">
+                     <input>
+                        <ColorAdjust />
+                     </input>
+                  </ColorAdjust>
+               </effect>
+               <image>
+                  <Image url="@../../../Imagenes/warning.png" />
+               </image>
+            </ImageView>
+            <ToggleButton id="btn_nav" fx:id="btn_contacto" alignment="CENTER_RIGHT" layoutY="415.0" mnemonicParsing="false" onAction="#goContacto" prefHeight="80.0" prefWidth="216.0" text="DATOS INTERÉS" toggleGroup="$navegacion" />
+            <ImageView disable="true" fitHeight="40.0" fitWidth="40.0" layoutX="13.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+               <image>
+                  <Image url="@../../../Imagenes/informacion.png" />
+               </image>
+            </ImageView>
+            <Label id="infoCliente" fx:id="infoUser" layoutX="6.0" layoutY="706.0" prefHeight="40.0" prefWidth="206.0" />
+            <Label id="infoCliente" fx:id="infoPaciente" layoutX="6.0" layoutY="746.0" prefHeight="40.0" prefWidth="206.0" />
+            <ImageView fitHeight="120.0" fitWidth="159.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Imagenes/logoCheckUPP%20blanco-1.png" />
+               </image></ImageView>
+            <ToggleButton id="btn_nav" fx:id="btn_historial" alignment="CENTER_RIGHT" layoutY="495.0" mnemonicParsing="false" onAction="#goHistorial" prefHeight="80.0" prefWidth="216.0" text=" TESTS            " toggleGroup="$navegacion" />
+            <ImageView disable="true" fitHeight="40.0" fitWidth="40.0" layoutX="13.0" layoutY="515.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+               <image>
+                  <Image url="@../../../Imagenes/expediente.png" />
+               </image>
+            </ImageView>
+            <Button id="btn_cerrarSesion" layoutX="26.0" layoutY="599.0" mnemonicParsing="false" onAction="#cerrarSesion" prefHeight="47.0" prefWidth="166.0" text="Cerrar Sesión" />
+         </children>
+      </Pane>
+      <Pane id="titulo_fondo" layoutX="216.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="120.0" prefWidth="784.0">
+         <children>
+            <Label id="titulo_fondo" alignment="CENTER" layoutX="115.0" layoutY="11.0" prefHeight="98.0" prefWidth="521.0" text="Escala de Braden">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane id="cont_fondo" fx:id="main_content" layoutX="216.0" layoutY="120.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="680.0" prefWidth="784.0" />
+   </children>
+</Pane>

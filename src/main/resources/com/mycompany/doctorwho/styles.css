@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 may 2022, 18:47:02
+    Author     : Cambralla
+*/
+
+
+
+
+/*NAVEGACION*/
+
+#btn_nav{
+
+    -fx-background-color:#3379d6;
+    -fx-text-fill:white;
+    -fx-font-size:16px;
+    -fx-font-family:"Times New Roman";
+    -fx-font-weight:bold;
+
+
+
+}
+
+
+#btn_nav:hover{
+
+    -fx-background-color:#72AD9A;
+    -fx-cursor:hand;
+
+}
+
+#btn_nav:selected{
+    -fx-background-color:#72AD9A;
+
+
+}
+
+#nav_fondo{
+    -fx-background-color:#3379d6;
+
+}
+
+#btn_cerrarSesion{
+    -fx-background-color:#1c61bd;
+    -fx-text-fill:white;
+    -fx-font-size:20px;
+    -fx-font-family:"Times New Roman";
+    -fx-font-weight:bold;
+    -fx-background-radius: 0px;
+
+    -fx-border-style:solid;
+    -fx-border-color:#00d900;
+    -fx-border-width:0px 0px 5px 0px;
+
+}
+
+#btn_cerrarSesion:hover{
+    -fx-cursor:hand;
+    -fx-border-color:red;
+    -fx-font-size:21px;
+
+}
+
+/*COLORES FONDO*/
+
+#cont_fondo{
+
+    -fx-background-color:#f2efed;
+
+}
+
+#cont_prevencion{
+
+    -fx-background-color:#f2efed;
+
+}
+
+
+#titulo_fondo{
+
+    -fx-text-fill:white;
+    -fx-font-family:"Cooper Black";
+    -fx-font-size:55px;
+    -fx-background-color:#72AD9A;
+
+}
+
+
+
+/*BOTONES PARA CONTINUAR DENTRO DE LA APP*/
+
+
+.btn_siguiente{
+
+    -fx-background-color:#0fb860;
+    -fx-background-radius: 50px;
+    -fx-text-fill:white;
+    -fx-font-size:18px;
+
+}
+
+.btn_siguiente:hover{
+
+    -fx-background-color:#20e67f;
+    -fx-font-size:20px;
+    -fx-font-weight:bold;
+    -fx-cursor:hand;
+
+}
+
+
+
+
+/*LOGIN*/
+
+#login_fondo{
+    -fx-background-color:#408eb8;
+}
+
+
+.login_field{
+    -fx-background-radius: 0px;
+    -fx-background-color:#3297cf;
+    -fx-text-fill:white;
+    -fx-font-size:14px;
+    -fx-border-style:solid;
+    -fx-border-color:#00d900;
+    -fx-border-width:0px 0px 5px 0px;
+}
+
+
+
+
+#btn_iniciarSesion{
+    -fx-font-family:"Arial";
+    -fx-background-color:#171d21;
+    -fx-background-radius: 50px;
+    -fx-text-fill:white;
+    -fx-font-size:19px;
+}
+
+#btn_iniciarSesion:hover{
+    -fx-font-family:"Times New Roman";
+    -fx-background-color:#48b548;
+    -fx-background-radius: 50px;
+    -fx-cursor:hand;
+    -fx-font-size:20px;
+    -fx-font-weight:bold;
+
+
+}
+
+.txt_seccion_login{
+    -fx-font-family:"Monospaced";
+    -fx-text-fill:#dac700;
+    -fx-font-size:26px;
+    -fx-font-weight:bold;
+}
+
+.txt_registro{
+    -fx-font-family:"Times New Roman";
+    -fx-text-fill:#dac700;
+    -fx-font-size:20px;
+    -fx-font-weight:bold;
+    -fx-cursor:hand;
+}
+
+.txt_registro:hover{
+    -fx-cursor:hand;
+    -fx-font-size:21px;
+    -fx-text-fill:#00d900;
+}
+
+
+#seccion{
+    -fx-cursor:hand;
+
+}
+
+/*TEXTO EXPLICATIVO*/
+
+#textInicio{
+    -fx-font-family:"Times New Roman";
+    -fx-background-color:#faf0d7;
+}
+#text_areaIntro{
+    -fx-font-size:18px;
+    -fx-font-family:"Times New Roman";
+    -fx-fill:black;
+}
+
+#infoCliente{
+    -fx-font-size:14px;
+    -fx-font-weight:bold;
+    -fx-text-fill:white;
+}
+
+
+.link:hover{
+    -fx-font-size:15px;
+    -fx-cursor:hand;
+}
+
+
+/*HISTORIAL TEST*/
+
+
+#tabla_resultados{
+
+    -fx-background-color:white;
+    -fx-border-style:solid;
+    -fx-border-color:#cccccc;
+    -fx-border-width:1px;
+
+}
+
+#resultadoRiesgo{
+    -fx-text-fill:#3379d6;
+}
+
+
+.btn_filtrar{
+    -fx-background-color:#171d21;
+    -fx-background-radius: 50px;
+    -fx-text-fill:white;
+    -fx-font-size:15px;
+}
+
+.btn_filtrar:hover{
+    -fx-background-color:#48b548;
+    -fx-font-weight:bold;
+    -fx-cursor:hand;
+}
+

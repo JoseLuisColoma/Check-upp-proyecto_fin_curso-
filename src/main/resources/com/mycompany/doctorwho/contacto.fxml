@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="cont_fondo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.doctorwho.ContactoController">
+   <children>
+      <Text fill="#03b957" layoutX="82.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital Regional Universitario de Málaga">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="149.0" onMouseClicked="#alPulsarWebPrimera" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="link" text="Hospital Regional Universitario CARLOS HAYA - Málaga (hospitalregionaldemalaga.es)" underline="true" wrappingWidth="474.99932861328125" />
+      <Text layoutX="89.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tlf: 951 290 000" />
+      <Text fill="#03b957" layoutX="82.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hospital Universitari General de Catalunya" wrappingWidth="464.07663798332214">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Úlcera por presión (UPP) | Hospital Universitari General de Catalunya - Grupo Quirón Salud (hgc.es)" wrappingWidth="425.2584533691406" />
+      <Text layoutX="89.0" layoutY="317.0" onMouseClicked="#alPulsarWebSegunda" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="link" text="Recomendaciones para personas con riesgo UPPV." underline="true" wrappingWidth="319.13676834106445" />
+      <Text fill="#03b957" layoutX="82.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONSORCI HOSPITAL GENERAL UNIVERSITARI DE VALÈNCIA" wrappingWidth="464.0766496658325">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="431.0" onMouseClicked="#alPulsarWebTercera" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="link" text="Unidad de úlceras y cuidados de la piel (Dpto Dermatología)" underline="true" wrappingWidth="385.13676834106445" />
+      <Text layoutX="89.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TEL: 96 313 18 00" />
+      <Text layoutX="89.0" layoutY="500.0" onMouseClicked="#alPulsarWebTerceraServ" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="link" text="Servicios unidades Ulceras" underline="true" wrappingWidth="210.0546875" />
+      <ImageView fitHeight="137.0" fitWidth="139.0" layoutX="597.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/6533487.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="591.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/Bed-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="150.0" layoutX="442.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/eye-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

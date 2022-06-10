@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="cont_fondo" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.doctorwho.InicioController">
+   <children>
+      <Text fill="#8a8a8a" layoutX="17.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Qué es una  UPP?" wrappingWidth="448.5368347167969">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="img_Sillas" fitHeight="198.0" fitWidth="208.0" layoutX="495.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/camilla.png" />
+         </image></ImageView>
+      <Text id="text_areaIntro" fx:id="txtInicio" fill="#1a6cbf" layoutX="40.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una ÚLCERA POR PRESIÓN es una lesión en la piel que se produce al exponer alguna zona del cuerpo a una presión, roce o abrasión durante un tiempo prolongado. Por lo general, suelen aparecer en personas con movilidad reducida o que están encamadas mucho tiempo, de modo que:" textAlignment="JUSTIFY" wrappingWidth="402.9407196044922">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text id="text_areaIntro" fx:id="txtInicio" fill="#1a6cbf" layoutX="40.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•   El peso del cuerpo aprieta los tejidos entre el hueso y la cama (PRESIÓN)" wrappingWidth="402.94071960449213">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text id="text_areaIntro" fx:id="txtInicio" fill="#1a6cbf" layoutX="40.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•   Recolocamos el cuerpo de la persona arrastrándolo (FRICCIÓN)" wrappingWidth="402.94071960449213">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text id="text_areaIntro" fx:id="txtInicio" fill="#1a6cbf" layoutX="40.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="•   La persona está sentada y se va deslizando hacia abajo, formándose la combinación de las dos situaciones anteriores (CIZALLAMIENTO)" wrappingWidth="402.94071960449213">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text fx:id="txtInicio" fill="#c30000" layoutX="145.0" layoutY="559.0" onMouseClicked="#alPulsarWeb" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="link" text="Pulsa aqui" wrappingWidth="104.87006378173828">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Text>
+      <ImageView fx:id="img_camilla" fitHeight="191.0" fitWidth="189.0" layoutX="487.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/silla.png" />
+         </image></ImageView>
+      <Text id="text_areaIntro" fx:id="txtInicio1" fill="#1a6cbf" layoutX="40.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para saber más:" wrappingWidth="111.00000584125519">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

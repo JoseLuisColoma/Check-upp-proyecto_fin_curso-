@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="cont_prevencion" fx:id="panel_Cambiar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="784.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.doctorwho.Prevencion3Controller">
+   <children>
+      <Text layoutX="55.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prevención de UPP: Dispositivos para disminuir la presión." wrappingWidth="510.12652587890625">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#191919" layoutX="57.0" layoutY="201.0" onMouseClicked="#alPulsarWebAlmohadillados" strokeType="OUTSIDE" strokeWidth="0.0" text="-Almohadillados." underline="true" wrappingWidth="462.197509765625">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fill="#191919" layoutX="57.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Apósitos." wrappingWidth="462.197509765625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#191919" layoutX="55.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Ácidos grasos hiperoxigenados (AGHO)." wrappingWidth="462.197509765625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#191919" layoutX="57.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Colchones antiescaras." wrappingWidth="462.197509765625">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#191919" layoutX="57.0" layoutY="461.0" onMouseClicked="#alPulsarWeb" strokeType="OUTSIDE" strokeWidth="0.0" text="Más info." underline="true" wrappingWidth="462.197509765625">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="418.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1583842.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="499.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1028804.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="663.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1047521.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="586.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/7168846.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="457.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1047650.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="545.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/298947.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="626.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1048492.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="499.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/medicine-drop-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="586.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/1047657.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="72.0" layoutX="545.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Imagenes/Bed-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
